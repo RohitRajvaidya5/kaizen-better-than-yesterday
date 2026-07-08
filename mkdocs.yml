@@ -4,7 +4,8 @@ site_description: A Personal Knowledge Management System
 theme:
   name: material
   language: en
-
+  icon:
+    logo: material/brain
   palette:
     # Light Theme
     - scheme: default
