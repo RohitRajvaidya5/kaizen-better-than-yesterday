@@ -1,3 +1,4 @@
-site_name: My Docs
+site_name: Kaizen - Better Than Yesterday
+site_description: A Personal Knowledge Management System
 extra_css:
   - assets/css/extra.css
