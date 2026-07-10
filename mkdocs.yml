@@ -10,7 +10,7 @@ theme:
     # Light Theme
     - scheme: default
       primary: teal
-      accent: green
+      accent: teal
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -18,7 +18,7 @@ theme:
     # Dark Theme
     - scheme: slate
       primary: teal
-      accent: green
+      accent: teal
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
