@@ -1,5 +1,3 @@
-# 🚀 Kaizen
+# Kaizen &rarr; Continuous Improvement
 
-## Better Than Yesterday
-
---- 
+---

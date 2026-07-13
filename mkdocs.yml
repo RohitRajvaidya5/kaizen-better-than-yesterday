@@ -1,64 +1,117 @@
-site_name: Kaizen - Better Than Yesterday
-site_description: A Personal Knowledge Management System
+site_name: Kaizen &rarr; Continuous Improvement
+site_description: Personal Backend Engineering Knowledge Base
+site_author: Rohit Rajvaidya
 
 theme:
   name: material
   language: en
-  icon:
-    logo: material/brain
-  palette:
-    # Light Theme
-    - scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
 
-    # Dark Theme
+  logo: assets/logo.png        # Optional
+  favicon: assets/favicon.png  # Optional
+
+  palette:
+
+    # Dark Mode
     - scheme: slate
       primary: teal
-      accent: teal
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
 
-  font:
-    text: Consolas
-    code: JetBrains Mono
-
-  favicon: assets/images/favicon.ico
+    # Light Mode
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
   features:
+
+    # Navigation
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+
     - navigation.tabs
+    - navigation.tabs.sticky
+
     - navigation.sections
+    - navigation.expand
+    - navigation.indexes
     - navigation.top
+    - navigation.footer
+    - navigation.tracking
+
+    # Search
+    - search.suggest
     - search.highlight
+    - search.share
+
+    # TOC
+    - toc.follow
+    - toc.integrate
+
+    # Code
     - content.code.copy
+    - content.code.annotate
+
+    # Markdown
+    - content.tabs.link
+    - content.tooltips
 
 plugins:
   - search
 
 markdown_extensions:
+
   - admonition
+
   - attr_list
+
   - md_in_html
 
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
+  - tables
+
+  - footnotes
+
+  - toc:
+      permalink: true
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+
+  - pymdownx.superfences
+
+  - pymdownx.details
 
   - pymdownx.tabbed:
       alternate_style: true
 
   - pymdownx.tasklist:
       custom_checkbox: true
+      clickable_checkbox: true
 
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.emoji
+
+  - pymdownx.keys
+
+  - pymdownx.snippets
+
+  - pymdownx.magiclink
+
+extra:
+
+  social:
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/RohitRajvaidya5
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/rohit-rajvaidya
 
 extra_css:
-  - assets/css/extra.css
+  - stylesheets/extra.css
