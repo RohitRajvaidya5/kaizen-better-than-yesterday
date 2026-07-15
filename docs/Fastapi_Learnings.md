@@ -1,4 +1,4 @@
-# FastAPI
+# FastAPI Concepts
 ---
 
 ## FastAPI Fundamentals
