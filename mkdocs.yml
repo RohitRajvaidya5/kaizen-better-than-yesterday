@@ -6,8 +6,8 @@ theme:
   name: material
   language: en
 
-  logo: assets/logo.png        # Optional
-  favicon: assets/favicon.png  # Optional
+  logo: assets/images/kaizen.png
+  favicon: assets/favicon.png
 
   palette:
 
