@@ -1,4 +1,9 @@
 .task-completed {
     text-decoration: line-through;
-    opacity: 0.7;
+    color: var(--md-default-fg-color--light);
+}
+
+.task-completed .task-list-control,
+.task-completed .task-list-indicator {
+    opacity: 1;
 }
