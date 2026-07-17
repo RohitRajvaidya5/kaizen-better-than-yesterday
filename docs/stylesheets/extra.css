@@ -7,3 +7,7 @@
 .task-completed .task-list-indicator {
     opacity: 1;
 }
+
+code {
+    border-radius: 50px;
+}

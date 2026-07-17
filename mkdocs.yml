@@ -7,7 +7,7 @@ theme:
   language: en
 
   logo: assets/images/kaizen.png
-  favicon: assets/favicon.png
+  favicon: assets/images/kaizen.png
 
   palette:
 
