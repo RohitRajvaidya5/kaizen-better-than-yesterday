@@ -266,7 +266,7 @@
 
 ## Typing
 
-- [ ] 🔷 Optional
+- [x] 🔷 Optional
 - [ ] 🔷 Union
 - [ ] 🔷 Any
 - [ ] 🔷 List
