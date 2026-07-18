@@ -62,7 +62,7 @@
 
 ## Comprehensions
 
-- [ ] 🔷 List Comprehension
+- [x] 🔷 List Comprehension
 - [ ] 🔷 Dictionary Comprehension
 - [ ] 🔷 Set Comprehension
 - [ ] 🔷 Generator Expression

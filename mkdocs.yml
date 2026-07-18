@@ -112,3 +112,7 @@ extra:
 
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/rohit-rajvaidya
+
+extra_css:
+  - assets/stylesheets/extra.css
+
