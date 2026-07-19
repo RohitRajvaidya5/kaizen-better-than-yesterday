@@ -1,3 +1,6 @@
 # Kaizen &rarr; Continuous Improvement
 
 ---
+
+
+
