@@ -1,7 +1,13 @@
-# Python Concepts
+# Python Learning Roadmap
+
+> **Legend**
+>
+> - 🔷 = Core (Must Know)
+> - 🟣 = Advanced (Learn After Core)
+
 ---
 
-## Python Fundamentals
+# Phase 1 - Python Fundamentals
 
 - [ ] 🔷 Variables
 - [ ] 🔷 Data Types
@@ -21,7 +27,7 @@
 
 ---
 
-## Strings
+# Phase 2 - Strings
 
 - [ ] 🔷 String Methods
 - [ ] 🔷 String Formatting (f-string)
@@ -32,59 +38,59 @@
 
 ---
 
-## Collections
+# Phase 3 - Collections
 
-### List
+## List
 
 - [ ] 🔷 List Operations
 - [ ] 🔷 List Methods
 - [ ] 🔷 List Slicing
 - [ ] 🔷 Nested Lists
 
-### Tuple
+## Tuple
 
 - [ ] 🔷 Tuple Operations
 - [ ] 🔷 Packing & Unpacking
 
-### Dictionary
+## Dictionary
 
 - [ ] 🔷 Dictionary Methods
 - [ ] 🔷 Dictionary Iteration
 - [ ] 🔷 Nested Dictionary
 - [ ] 🔷 Dictionary Comprehension
 
-### Set
+## Set
 
 - [ ] 🔷 Set Operations
 - [ ] 🔷 Frozen Set
 
 ---
 
-## Comprehensions
+# Phase 4 - Comprehensions
 
-- [x] 🔷 List Comprehension
+- [ ] 🔷 List Comprehension
 - [ ] 🔷 Dictionary Comprehension
 - [ ] 🔷 Set Comprehension
 - [ ] 🔷 Generator Expression
 
 ---
 
-## Iteration
+# Phase 5 - Iteration
 
-- [ ] 🔷 Iterators
 - [ ] 🔷 Iterables
+- [ ] 🔷 Iterators
 - [ ] 🔷 enumerate()
 - [ ] 🔷 zip()
+- [ ] 🔷 sorted()
+- [ ] 🔷 reversed()
 - [ ] 🔷 map()
 - [ ] 🔷 filter()
 - [ ] 🔷 any()
 - [ ] 🔷 all()
-- [ ] 🔷 sorted()
-- [ ] 🔷 reversed()
 
 ---
 
-## Object-Oriented Programming
+# Phase 6 - Object-Oriented Programming
 
 - [ ] 🔷 Classes
 - [ ] 🔷 Objects
@@ -101,12 +107,15 @@
 - [ ] 🔷 super()
 - [ ] 🔷 Magic (Dunder) Methods
 - [ ] 🔷 Property Decorator
-- [ ] 🟣 Metaclasses
+
+### Advanced
+
 - [ ] 🟣 Method Resolution Order (MRO)
+- [ ] 🟣 Metaclasses
 
 ---
 
-## Exception Handling
+# Phase 7 - Exception Handling
 
 - [ ] 🔷 try / except
 - [ ] 🔷 else
@@ -117,19 +126,19 @@
 
 ---
 
-## Modules & Packages
+# Phase 8 - Modules & Packages
 
 - [ ] 🔷 import
 - [ ] 🔷 from ... import
-- [ ] 🔷 __name__
-- [ ] 🔷 __main__
+- [ ] 🔷 `__name__`
+- [ ] 🔷 `__main__`
 - [ ] 🔷 Creating Packages
 - [ ] 🔷 Virtual Environments
 - [ ] 🔷 pip
 
 ---
 
-## File Handling
+# Phase 9 - File Handling
 
 - [ ] 🔷 Reading Files
 - [ ] 🔷 Writing Files
@@ -140,7 +149,7 @@
 
 ---
 
-## Functional Programming
+# Phase 10 - Functional Programming
 
 - [ ] 🔷 Lambda
 - [ ] 🔷 map()
@@ -151,7 +160,7 @@
 
 ---
 
-## Decorators
+# Phase 11 - Decorators
 
 - [ ] 🔷 Function Decorators
 - [ ] 🔷 functools.wraps
@@ -160,7 +169,7 @@
 
 ---
 
-## Generators
+# Phase 12 - Generators
 
 - [ ] 🔷 yield
 - [ ] 🔷 Generator Functions
@@ -170,7 +179,7 @@
 
 ---
 
-## Context Managers
+# Phase 13 - Context Managers
 
 - [ ] 🔷 with Statement
 - [ ] 🔷 contextlib
@@ -178,7 +187,7 @@
 
 ---
 
-## Memory Management
+# Phase 14 - Memory Management
 
 - [ ] 🔷 Mutable vs Immutable
 - [ ] 🔷 Reference Counting
@@ -187,7 +196,7 @@
 
 ---
 
-## Copying Objects
+# Phase 15 - Copying Objects
 
 - [ ] 🔷 Assignment
 - [ ] 🔷 Shallow Copy
@@ -195,7 +204,7 @@
 
 ---
 
-## Collections Module
+# Phase 16 - collections Module
 
 - [ ] 🔷 Counter
 - [ ] 🔷 defaultdict
@@ -206,7 +215,7 @@
 
 ---
 
-## itertools
+# Phase 17 - itertools
 
 - [ ] 🔷 combinations
 - [ ] 🔷 permutations
@@ -218,7 +227,7 @@
 
 ---
 
-## heapq
+# Phase 18 - heapq
 
 - [ ] 🔷 Heap
 - [ ] 🔷 Priority Queue
@@ -227,7 +236,7 @@
 
 ---
 
-## bisect
+# Phase 19 - bisect
 
 - [ ] 🔷 Binary Search
 - [ ] 🔷 bisect_left()
@@ -235,20 +244,20 @@
 
 ---
 
-## Regular Expressions
+# Phase 20 - Regular Expressions
 
 - [ ] 🔷 Pattern Matching
 - [ ] 🔷 Character Classes
-- [ ] 🔷 Groups
 - [ ] 🔷 Search
 - [ ] 🔷 Match
 - [ ] 🔷 Findall
+- [ ] 🔷 Groups
 - [ ] 🟣 Lookahead
 - [ ] 🟣 Lookbehind
 
 ---
 
-## Dataclasses
+# Phase 21 - Dataclasses
 
 - [ ] 🔷 dataclass
 - [ ] 🔷 field()
@@ -257,18 +266,18 @@
 
 ---
 
-## Enums
+# Phase 22 - Enums
 
 - [ ] 🔷 Enum
 - [ ] 🔷 auto()
 
 ---
 
-## Typing
+# Phase 23 - Typing
 
-- [x] 🔷 Optional
-- [ ] 🔷 Union
 - [ ] 🔷 Any
+- [ ] 🔷 Optional
+- [ ] 🔷 Union
 - [ ] 🔷 List
 - [ ] 🔷 Dict
 - [ ] 🔷 Tuple
@@ -281,21 +290,21 @@
 
 ---
 
-## Async Programming
+# Phase 24 - Async Programming
 
 - [ ] 🔷 async / await
+- [ ] 🔷 Event Loop
 - [ ] 🔷 asyncio
 - [ ] 🔷 Tasks
-- [ ] 🔷 Event Loop
 - [ ] 🔷 gather()
-- [ ] 🔷 Semaphore
 - [ ] 🔷 Queue
+- [ ] 🔷 Semaphore
 - [ ] 🟣 Locks
 - [ ] 🟣 Streams
 
 ---
 
-## Concurrency
+# Phase 25 - Concurrency
 
 - [ ] 🔷 Threading
 - [ ] 🔷 Multiprocessing
@@ -306,10 +315,10 @@
 
 ---
 
-## Networking
+# Phase 26 - Networking
 
-- [ ] 🔷 requests
 - [ ] 🔷 HTTP Methods
+- [ ] 🔷 requests
 - [ ] 🔷 Sessions
 - [ ] 🔷 Timeouts
 - [ ] 🔷 Retries
@@ -318,7 +327,7 @@
 
 ---
 
-## Logging
+# Phase 27 - Logging
 
 - [ ] 🔷 logging Module
 - [ ] 🔷 Log Levels
@@ -328,17 +337,17 @@
 
 ---
 
-## Testing
+# Phase 28 - Testing
 
 - [ ] 🔷 unittest
 - [ ] 🔷 pytest
-- [ ] 🔷 Mocking
 - [ ] 🔷 Fixtures
+- [ ] 🔷 Mocking
 - [ ] 🟣 Property-based Testing
 
 ---
 
-## Performance
+# Phase 29 - Performance
 
 - [ ] 🔷 Time Complexity
 - [ ] 🔷 Space Complexity
@@ -348,21 +357,7 @@
 
 ---
 
-## Python Internals
-
-- [ ] 🟣 Bytecode
-- [ ] 🟣 Python Interpreter
-- [ ] 🟣 CPython
-- [ ] 🟣 GIL Internals
-- [ ] 🟣 Descriptor Protocol
-- [ ] 🟣 __slots__
-- [ ] 🟣 Monkey Patching
-- [ ] 🟣 AST
-- [ ] 🟣 Import System
-
----
-
-## Useful Standard Library
+# Phase 30 - Useful Standard Library
 
 - [ ] 🔷 datetime
 - [ ] 🔷 pathlib
@@ -377,8 +372,21 @@
 - [ ] 🔷 random
 - [ ] 🔷 statistics
 - [ ] 🔷 decimal
-- [ ] 🔷 pathlib
 - [ ] 🔷 subprocess
 - [ ] 🟣 argparse
 - [ ] 🟣 configparser
 - [ ] 🟣 importlib
+
+---
+
+# Phase 31 - Python Internals
+
+- [ ] 🟣 Python Interpreter
+- [ ] 🟣 CPython
+- [ ] 🟣 Bytecode
+- [ ] 🟣 GIL Internals
+- [ ] 🟣 Descriptor Protocol
+- [ ] 🟣 `__slots__`
+- [ ] 🟣 Monkey Patching
+- [ ] 🟣 AST
+- [ ] 🟣 Import System
