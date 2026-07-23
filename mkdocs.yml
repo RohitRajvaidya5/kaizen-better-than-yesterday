@@ -9,6 +9,10 @@ theme:
   logo: assets/images/kaizen.png
   favicon: assets/images/kaizen.png
 
+  font:
+    text : Georgia
+    code : Jetbrains Mono
+
   palette:
 
     # Dark Mode
